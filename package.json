@@ -1,0 +1,30 @@
+{
+  "name": "ragebite",
+  "version": "1.0.0",
+  "description": "RageBite - Friendly roast battle platform",
+  "main": "ragebite.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyesh8/RageBite.git"
+  },
+  "keywords": [
+    "react",
+    "roast-battle",
+    "social"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyesh8/RageBite/issues"
+  },
+  "homepage": "https://github.com/divyesh8/RageBite#readme",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}

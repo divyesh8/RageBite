@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // ─── FONTS ────────────────────────────────────────────────────────────────────
 const FontLink = () => (
@@ -1023,6 +1024,9 @@ export default function App() {
           </div>
         )}
       </div>
+      <SpeedInsights />
     </>
   );
 }
+
+export default App;

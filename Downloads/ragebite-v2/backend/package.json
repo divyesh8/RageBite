@@ -1,28 +1,14 @@
 {
   "name": "ragebite-backend",
-  "version": "2.0.0",
-  "main": "server.js",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "db:setup": "psql $DATABASE_URL -f db/schema.sql"
+    "start": "node index.js"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "express-rate-limit": "^7.1.5",
-    "express-validator": "^7.0.1",
-    "helmet": "^7.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "pg": "^8.11.3",
-    "resend": "^3.2.0",
-    "uuid": "^9.0.0",
-    "xss": "^1.0.14"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "express": "^5.2.1",
+    "cors": "^2.8.6",
+    "pg": "^8.21.0"
   }
 }

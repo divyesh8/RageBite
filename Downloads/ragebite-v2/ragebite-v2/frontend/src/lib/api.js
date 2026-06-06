@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://ragebite-production.up.railway.app/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://ragebite-production.up.railway.app/api',
   withCredentials: true,
   timeout: 15000,
   headers: { 'Content-Type': 'application/json' },

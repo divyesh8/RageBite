@@ -72,7 +72,7 @@ api.interceptors.response.use(
 );
 
 export const authAPI = {
-  register:       (d) => api.post('/auth/register', d),
+ register: (d) => api.post('/auth/signup', d),
   verifyOTP:      (d) => api.post('/auth/verify-otp', d),
   resendOTP:      (d) => api.post('/auth/resend-otp', d),
   login:          (d) => api.post('/auth/login', d),
